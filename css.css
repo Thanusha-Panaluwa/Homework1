@@ -1,0 +1,166 @@
+h1,
+h2,
+h3,
+h5 {
+  text-align: center;
+}
+h1 {
+  font-size: 96px;
+  margin-bottom: 2px;
+  margin-top: 5px;
+}
+
+h2 {
+  font-size: 48px;
+  margin-bottom: 0;
+}
+
+h3 {
+  font-size: 26px;
+  opacity: 0.7;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+h5 {
+  margin-top: 0;
+  font-size: 16px;
+  opacity: 0.9;
+}
+
+/*waving hand*/
+@keyframes wave {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(16deg);
+  }
+  20% {
+    transform: rotate(-6deg);
+  }
+  30% {
+    transform: rotate(16deg);
+  }
+  40% {
+    transform: rotate(-4deg);
+  }
+  50% {
+    transform: rotate(16deg);
+  }
+  60% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.waving-hand {
+  animation: wave 2.1s 0.6s infinite;
+  transform-origin: 75% 75%;
+  display: inline-block;
+}
+
+.first_page {
+  background-image: radial-gradient(
+    1224px at 10.6% 8.8%,
+    rgb(255, 255, 255) 0%,
+    rgb(169, 211, 252) 100.2%
+  );
+  background-repeat: no-repeat;
+  padding: 25px;
+  width: 900px;
+  margin: 0 auto;
+  margin-top: 35px;
+  box-shadow: var(--bt-shadow);
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+}
+
+:root {
+  --bg-color: rgb(85, 178, 231);
+  --bt-padding: 13px;
+  --bt-radius: 5px;
+  --color: rgb(7, 17, 110);
+  --bt-border: 1px rgb(255, 255, 255);
+  --bt-shadow: 0.3px 0.5px 3px grey;
+}
+
+.con {
+  padding: var(--bt-padding);
+  border-radius: var(--bt-radius);
+  background-color: var(--bg-color);
+  color: var(--color);
+  border-color: var(--bt-border);
+  box-shadow: var(--bt-shadow);
+}
+
+.abt {
+  padding: var(--bt-padding);
+  border-radius: var(--bt-radius);
+  background-color: var(--bg-color);
+  box-shadow: var(--bt-shadow);
+  color: aliceblue;
+}
+
+body {
+  background-color: aliceblue;
+}
+.img {
+  width: 210px;
+  height: 305px;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: var(--bt-shadow);
+}
+
+.site {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 850px;
+  font-size: 20px;
+  opacity: 0.8;
+  background-color: antiquewhite;
+  padding: 14px;
+  border-radius: 5px;
+}
+
+.left {
+  width: 400px;
+  text-align: justify;
+}
+.right {
+  width: 400px;
+  text-align: justify;
+}
+
+.link {
+  margin: 0 auto;
+  padding: 5px;
+  background-color: rgb(247, 241, 233);
+  border-radius: 3px;
+  width: 66px;
+  text-decoration: none;
+  box-shadow: var(--bt-shadow);
+}
+.abtMe {
+  text-align: center;
+  font-size: 14px;
+}
+
+a {
+  text-decoration: none;
+}
+.home {
+  font-size: 23px;
+}
+#mail {
+  font-size: 30px;
+}
